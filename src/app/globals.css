@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+  background-color: #EEEADD;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Top Horizontal Row */
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Right Vertical Row */
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+/* Bottom Horizontal Row */
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Image Styling */
+.top-image, .right-image, .bottom-image {
+  margin: 10px;
+}
